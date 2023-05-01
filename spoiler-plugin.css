@@ -1,0 +1,14 @@
+.spoiler-element {
+  display: inline;
+  position: relative;
+  white-space: normal;
+}
+  
+.spoiler-text {
+  display: inline;
+  position: relative;
+}
+  
+.spoiler-text.hidden {
+  filter: blur(3px);
+}
